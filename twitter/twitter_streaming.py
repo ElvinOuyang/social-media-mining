@@ -37,7 +37,7 @@ def format_filename(fname):
 
     Return: string
     """
-    return ' '.join(convert_valid(one_char) for one_char in fname)
+    return ''.join(convert_valid(one_char) for one_char in fname)
 
 
 def convert_valid(one_char):
